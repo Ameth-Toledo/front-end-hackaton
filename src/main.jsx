@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Login from './components/Pages/Login/Login.jsx'
 import Register from './components/Pages/Register/Register.jsx'
 import NotFound from './components/Pages/NotFound/NotFound.jsx'
+import Alquileres from './components/Pages/Alquileres/Alquileres.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter ([
   {
     path: '/register',
     element: <Register/>
+  },
+  {
+    path: '/alquileres',
+    element: <Alquileres/>
   }
 ])
 

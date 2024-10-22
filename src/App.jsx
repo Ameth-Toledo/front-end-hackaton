@@ -16,7 +16,9 @@ function App() {
       
       {/*seccion*/}
 
-      <div className='container-home'></div>
+      <div className='container-home'>
+        <h1 className=''>NextHome</h1>
+      </div>
       <h1>kk</h1>
     <Footer/>
     </>

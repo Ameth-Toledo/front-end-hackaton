@@ -5,8 +5,8 @@ import './Header.css';
 function Header() {
     const navigate = useNavigate();
 
-    const redirectDonations = () => {
-        navigate('/donaciones-administrador');
+    const redirectAlquileres = () => {
+        navigate('/alquileres');
     }
 
     const redirectHome = () => {
@@ -23,8 +23,7 @@ function Header() {
             <img src="NextHome.svg" alt="Logo" className="logo-donaciones" />
             <ul className="nav-donaciones">
                 <li className="nav-item" onClick={redirectHome}>Inicio</li>
-                <li className="nav-item">Alquileres</li>
-                <li className="nav-item" onClick={redirectDonations}>Alquileres</li>
+                <li className="nav-item" onClick={redirectAlquileres}>Alquileres</li>
                 <li className="nav-item">Nosotros</li>
             </ul>
             <button className="login-btn" onClick={redirectLogin}>Login</button>
