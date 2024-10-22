@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="55mm" height="55mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5500 5500"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#D3A871;stroke-width:100}
+    .str1 {stroke:#D3A871;stroke-width:250}
+    .str2 {stroke:#D3A871;stroke-width:20}
+    .fil0 {fill:none}
+    .fil1 {fill:#D3A871}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1516283679808">
+   <circle class="fil0 str0" cx="2750" cy="2750" r="2633"/>
+   <circle class="fil0 str1" cx="2750" cy="2750" r="2342"/>
+   <polygon class="fil1 str2" points="1081,4393 1209,4464 1213,2739 1723,2423 1708,4848 2525,5077 2525,2666 1803,2172 1081,2666 "/>
+   <polygon class="fil1 str2" points="2131,2281 2280,2400 2276,1644 2959,1216 2950,2953 3722,2478 4026,2683 4026,1579 3078,920 2131,1579 "/>
+   <polygon class="fil1 str2" points="2972,5081 3101,5006 3109,3149 3619,2833 3606,4958 4421,4390 4421,3076 3699,2583 2977,3076 "/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,68 @@
+.header-donaciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    border-radius: 20px 0px 20px 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.logo-donaciones {
+    height: 60px;
+}
+
+.nav-donaciones {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.nav-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #f1c40f; 
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-item:hover {
+    color: #f1c40f; 
+}
+
+.login-btn {
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    background-color: rgb(139, 38, 38);
+}

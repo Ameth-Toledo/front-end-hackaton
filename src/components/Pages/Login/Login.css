@@ -1,0 +1,136 @@
+.form-container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 20px; 
+    width: 600px;
+    height: 500px; 
+    margin: 30px auto;
+    background-color: #F7F7F7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+}
+
+.title-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.login-icon {
+    width: 80px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.login-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    color: #1A1A1A; 
+    text-align: center;
+}
+
+.register-link {
+    font-family: 'Poppins', sans-serif;
+    color: #007BFF; 
+    margin-left: 5px;
+}
+
+.form-centered {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group_input {
+    font-family: 'Poppins';
+    color: #333; 
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid #007BFF; 
+    background-color: #FFFFFF; 
+    transition: outline-color 500ms;
+}
+
+.input-group_input:is(:focus, :valid) {
+    outline-color: #0056b3; 
+}
+
+.input-group_label {
+    font-family: 'Poppins';
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 10px 10px;
+    color: #1A1A1A; 
+    transition: translate 500ms, scale 500ms;
+}
+
+.input-group_input:focus + .input-group_label,
+.input-group_input:valid + .input-group_label {
+    padding-inline: 5px;
+    translate: 10px -14px;
+    scale: 0.8;
+    background-color: #F7F7F7; 
+}
+
+.ingresar-btn {
+    background-color: #007BFF; 
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ingresar-btn:hover {
+    background-color: #0056b3; 
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007BFF; 
+    font-size: 1.2em; 
+}
+
+.no-account-container {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.no-account {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A; 
+    margin: 0; 
+}
+
+.aceptar-btn {
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aceptar-btn:hover {
+    background-color: #0056b3; 
+}
