@@ -17,8 +17,8 @@ function Footer() {
                     </form>
                 </div>
                 <div className="footer-icons">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
-                        <i className="fab fa-facebook-f"></i>
+                    <a href="https://github.com/Ameth-Toledo" target="_blank" rel="noopener noreferrer" className="footer-icon">
+                        <i className="fab fa-github"></i>
                     </a>
                     <a href="https://x.com/Ameth_Toledo" target="_blank" rel="noopener noreferrer" className="footer-icon">
                         <i className="fab fa-twitter"></i>

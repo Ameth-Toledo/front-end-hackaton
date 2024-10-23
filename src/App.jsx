@@ -3,14 +3,18 @@ import './App.css';
 import Header from './components/Atoms/Header/Header';
 import Footer from './components/Atoms/Footer/Footer';
 import CardHome from './components/Molecules/CardHome/CardHome';
+import { useNavigate } from 'react-router-dom';
 
 function App() {
+  const navigate = useNavigate();
+
+  const redirectCasas = () => {
+    navigate(['/alquileres']);
+  }
+
   return (
     <>
-      <div className='header-donaciones-class'>
-        <Header />
-      </div>
-
+      <Header />
       <section className='hero-banner'>
         <img src="banner.png" alt="banner-donaciones" className="banner-adopciones" />
         <div className="hero-text">
@@ -18,6 +22,10 @@ function App() {
           <h2 className="description-banner">
             En <span className='nexthome-color'>NextHome</span> te ayudamos a encontrar un hogar cómodo, seguro y económico
           </h2>
+          <img src="NextHome.svg" alt="logotipo" className='logotipo-next'/>
+          <button className='comenzar-btn'>
+              Comenzar <i className="fas fa-arrow-right"></i>
+          </button>
         </div>
       </section>
 
@@ -31,11 +39,9 @@ function App() {
         <div className='container-home'>
           <h1 className='info-title'>NextHome</h1>
           <p className='info-description'>Explora las mejores opciones para encontrar el hogar de tus sueños. Nuestro objetivo es brindarte el mejor servicio y acompañarte en cada paso del proceso.</p>
-          <button className='cta-button'>Explorar propiedades</button>
+          <button className='cta-button' onClick={redirectCasas}>Explorar propiedades</button>
         </div>
       </section>
-
-      
       <Footer />
     </>
   )
