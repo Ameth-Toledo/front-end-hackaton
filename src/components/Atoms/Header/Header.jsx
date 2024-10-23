@@ -1,9 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import './Header.css';
 
 function Header() {
     const navigate = useNavigate();
+    const location = useLocation();
 
     const redirectAlquileres = () => {
         navigate('/alquileres');
@@ -17,14 +18,23 @@ function Header() {
         navigate('/login');
     }
 
+    const redirectSearch = () => {
+        navigate('/search');
+    }
+
+    const isActive = (path) => {
+        return location.pathname === path ? 'nav-item active' : 'nav-item';
+    }
+ 
     return (
         <>
         <header className="header-donaciones">
             <img src="NextHome.svg" alt="Logo" className="logo-donaciones" />
             <ul className="nav-donaciones">
-                <li className="nav-item" onClick={redirectHome}>Inicio</li>
-                <li className="nav-item" onClick={redirectAlquileres}>Alquileres</li>
+                <li className={isActive('/')} onClick={redirectHome}>Inicio</li>
+                <li className={isActive('/alquileres')} onClick={redirectAlquileres}>Alquileres</li>
                 <li className="nav-item">Nosotros</li>
+                <li className={isActive('/search')} onClick={redirectSearch}>Búsqueda</li>
             </ul>
             <button className="login-btn" onClick={redirectLogin}>Login</button>
         </header>

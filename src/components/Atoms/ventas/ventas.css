@@ -1,0 +1,94 @@
+.fixed-component {
+    position: fixed;
+    top: 870px; 
+    right: 20px; 
+    width: 60px; 
+    height: 60px; 
+    background-color: #00aaff; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    cursor: pointer;
+}
+  
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 450px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.close {
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.modal-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #333;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.modal-input {
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.modal-input-file {
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.image-preview {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.modal-submit {
+    padding: 12px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-submit:hover {
+    background-color: #008bbf;
+}

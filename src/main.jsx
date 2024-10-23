@@ -6,6 +6,7 @@ import Login from './components/Pages/Login/Login.jsx'
 import Register from './components/Pages/Register/Register.jsx'
 import NotFound from './components/Pages/NotFound/NotFound.jsx'
 import Alquileres from './components/Pages/Alquileres/Alquileres.jsx'
+import Search from './components/Pages/Search/Search.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -24,7 +25,12 @@ const router = createBrowserRouter ([
   {
     path: '/alquileres',
     element: <Alquileres/>
+  },
+  {
+    path: '/search',
+    element: <Search/>
   }
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,0 +1,35 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: #333;
+}
+
+.error-icon {
+    font-size: 100px;
+    color: #ff6347; 
+    margin-bottom: 20px;
+}
+
+.opps-error {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.error-code {
+    font-size: 80px;
+    color: #ff6347;
+    margin: 0;
+}
+
+.error-message {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+}

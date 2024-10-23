@@ -3,6 +3,8 @@ import Header from "../../Atoms/Header/Header";
 import Footer from "../../Atoms/Footer/Footer";
 import CardAlquileres from "../../Molecules/CardAlquileres/CardAlquileres";
 import './Alquileres.css';
+import Ventas from "../../Atoms/ventas/ventas";
+
 
 function Alquileres() {
     return (
@@ -81,7 +83,9 @@ function Alquileres() {
             />
         </div>
         <Footer/>
+        <Ventas/>
         </>
+        
     )
 }
 

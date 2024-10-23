@@ -20,7 +20,7 @@ function Footer() {
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
                         <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
+                    <a href="https://x.com/Ameth_Toledo" target="_blank" rel="noopener noreferrer" className="footer-icon">
                         <i className="fab fa-twitter"></i>
                     </a>
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="footer-icon">

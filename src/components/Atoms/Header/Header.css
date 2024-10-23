@@ -43,11 +43,13 @@
     transition: width 0.3s ease;
 }
 
-.nav-item:hover::after {
+.nav-item:hover::after,
+.nav-item.active::after {
     width: 100%;
 }
 
-.nav-item:hover {
+.nav-item:hover,
+.nav-item.active {
     color: #f1c40f; 
 }
 
@@ -58,9 +60,9 @@
     background-color: #3498db;
     border: none;
     color: white;
-    font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .login-btn:hover {
